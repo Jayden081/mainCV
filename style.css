@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.resume {
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left-panel {
+  width: 35%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.profile-pic img {
+  width: 120px;
+  border-radius: 30%;
+  margin-bottom: 15px;
+}
+
+.job-title {
+  font-size: 1.1em;
+  font-weight: normal;
+  margin: 10px 0 20px;
+}
+
+.section {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.sections{
+  text-align: left;
+}
+
+.section h3 {
+  border-bottom: 3px solid #555;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.right-panel {
+  width: 65%;
+  background-color: white;
+  padding: 30px;
+}
+
+.right-panel .section {
+  margin-bottom: 30px;
+}
+
+.right-panel ul {
+  padding-left: 20px;
+}
+
+.right-panel ul li {
+  margin-bottom: 5px;
+}
+
+.interest{
+    text-align: left;
+}
